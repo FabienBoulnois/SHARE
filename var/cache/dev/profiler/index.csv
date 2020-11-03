@@ -94,3 +94,13 @@ e79ad0,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/
 b11d34,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604390442,137450,500
 137450,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,POST,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604390442,,500
 8cc355,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/contact,1604390452,,200
+b2e60c,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604392064,,200
+af2217,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,POST,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604392074,,302
+773457,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/static,1604392075,,200
+de57d4,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/logout,1604392079,,302
+0aae9b,fd42:1b19:67cc:abcb:216:3eff:fe7b:a5f5,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/,1604392079,,200
+345045,10.239.19.226,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/logout,1604393718,,302
+ab6c31,10.239.19.226,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/,1604393718,,200
+135d92,10.239.19.226,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604393719,,200
+f356cf,10.239.19.226,POST,http://serveur1.arras-sio.com/symfony4-4153/share1/public/login,1604393724,,302
+47ef9c,10.239.19.226,GET,http://serveur1.arras-sio.com/symfony4-4153/share1/public/static,1604393724,,200
