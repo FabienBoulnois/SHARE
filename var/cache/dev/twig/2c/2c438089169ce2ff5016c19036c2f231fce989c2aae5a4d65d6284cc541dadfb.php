@@ -168,6 +168,6 @@ class __TwigTemplate_4a4c5dc29d8972490256b77a1d4077cf12471ad5c928c641d043cd24c25
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/var/www/html/symfony4-4153/public/share/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/var/www/html/symfony4-4153/public/share1/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

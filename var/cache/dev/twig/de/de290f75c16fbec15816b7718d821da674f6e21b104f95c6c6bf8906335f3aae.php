@@ -642,6 +642,6 @@ class __TwigTemplate_31a9e82ded1e969ac06c89cac9b8bb97c6cd8bda6ac60af527eb39d03d1
         }());
     </script>
 {% endblock %}
-", "@WebProfiler/Profiler/layout.html.twig", "/var/www/html/symfony4-4153/public/share/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/layout.html.twig");
+", "@WebProfiler/Profiler/layout.html.twig", "/var/www/html/symfony4-4153/public/share1/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/layout.html.twig");
     }
 }

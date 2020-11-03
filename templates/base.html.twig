@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Share{% endblock %}</title>
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
@@ -24,16 +26,30 @@
       <li class="nav-item">
         <a class="nav-link" href="#">A propos</a>
       </li>
+      
+      {% if is_granted('ROLE_ADMIN') %}
+
+
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Thèmes</a>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ajout</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Ajout Thème</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+          <a class="dropdown-item" href="{{path('ajout-theme')}}">Ajout Thème</a>
+          <a class="dropdown-item" href="{{path('ajoutFichier')}}">Ajout Fichier</a>
+          <a class="dropdown-item" href="{{path('ajout_utilisateur')}}">Ajout Utilisateur</a>
         </div>
       </li>
+
+      {% endif %}
+
+      {% if not is_granted('IS_AUTHENTICATED_FULLY') %}
+        <li><a href="{{ path('inscrire') }}">S'inscrire</a></li>
+        <li><a href="{{ path('app_login') }}">Se connecter</a></li>
+      {% else %}
+        <li><a href="{{ path('app_logout') }}">Se déconnecter</a></li>
+      {% endif %}
+
+
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">

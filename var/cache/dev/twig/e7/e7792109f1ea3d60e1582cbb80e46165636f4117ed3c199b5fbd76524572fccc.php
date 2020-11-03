@@ -127,6 +127,6 @@ class __TwigTemplate_1d6c93a6dfbd9e36a4c308ee2188b39e908efddab2fd83c0d52c916408b
 </style>
 
 {% endblock %}
-", "static/index.html.twig", "/var/www/html/symfony4-4153/public/share/templates/static/index.html.twig");
+", "static/index.html.twig", "/var/www/html/symfony4-4153/public/share1/templates/static/index.html.twig");
     }
 }
