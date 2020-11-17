@@ -5,6 +5,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
+use App\Controller\ImageProfilType;
 use App\Form\AjoutUtilisateurType;
 use App\Entity\Utilisateur;
 use Symfony\Component\HttpFoundation\Request;
